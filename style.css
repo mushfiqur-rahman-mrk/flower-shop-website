@@ -7,8 +7,7 @@
 }
 .container{
   max-width: 1440px;
-  margin: 0 auto;
-  border: 1px solid black;
+  margin: 128px auto;
 }
 
 h2{
@@ -25,6 +24,10 @@ header{
   background: rgba(229, 84, 115, 0.10);
   width: 100%;
   
+}
+header .container{
+  max-width: 1440px;
+  margin: 0 auto 128px;
 }
 .hero{
   display: grid;
@@ -77,6 +80,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+margin: 24px 48px;
 }
  
 .feature-img{
@@ -180,9 +184,90 @@ background: rgba(229, 84, 115, 0.05);
   display: flex;
   gap: 24px;
 }
+.insta-title p{
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 24px 48px;
+}
+ 
 
-.in
+/* cta */
+.cta{
+  background-image: url(images/Rectangle\ 9.png);
+  height: 449px;
+  background-size:  cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cta-content p{
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin:16px 0 48px;
+}
+.cta-content input{
+  border-radius: 8px;
+background: #FFF;
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 22px;
+border: none;
+width: 500px;
+margin-right: 16px;
+}
 
+/* footer */
+footer{
+  background: #111010;
+  text-align: center;
+  padding: 128px 0;
+}
+footer h3{
+  color: #E55473;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+footer span{
+  color: #FFF;
+}
+footer p{
+  color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: 24px 0 32px;
+}
+footer h4{
+  color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 
 
