@@ -54,7 +54,8 @@ font-weight: 400;
 line-height: 30px;
 padding: 32px 0;
 }
-.hero .hero-col-1 button{
+/* .hero .hero-col-1 */
+button{  
   color: #FFF;
 font-family: Lato;
 font-size: 20px;
@@ -117,10 +118,70 @@ padding-top: 32px;
 }
 
 
+/* support  */
+.support {
+  border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+display: flex;
+justify-content: space-between;
+align-items: center;
+ 
+padding: 87px 175px;
+
+}
+.support-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.support-card p{
+  color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px;
+}
 
 
+/* hot deal section */
+.hot-deal{
+  border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+}
+.hd-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  align-items: center;
+}
+.container-col-1 p{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 0 52px;
+}
+.container-col-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+/* instagram */
 
+.insta-image{
+  display: flex;
+  gap: 24px;
+}
+
+.in
 
 
 
