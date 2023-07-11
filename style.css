@@ -46,9 +46,7 @@ header .container{
   align-items: center;
   gap: 20px;
 }
-.hero .hero-col-2 img{
-  width: 100%;
-}
+ 
 .hero .hero-col-1 h1{
   color: #272727;
 font-family: Lato;
@@ -106,6 +104,7 @@ padding: 117px 30px 50px;
   border-radius: 300px 300px 0px 0px;
 background: rgba(71, 125, 17, 0.15);
 padding: 67px 50px 0;
+position: relative;
 }
 .card a{
   color: #272727;
@@ -117,6 +116,7 @@ font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
 padding-top: 32px;
+display: block;
 }
 
 /* support  */
@@ -138,7 +138,7 @@ padding: 87px 175px;
   color: rgba(39, 39, 39, 0.80);
 text-align: center;
 font-family: Lato;
-font-size: 24px;
+font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: 35px;
