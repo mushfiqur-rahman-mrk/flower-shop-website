@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 .container{
-  max-width: 86rem;
+  max-width: 1400px;
   margin: 128px auto;
 }
 
@@ -19,23 +19,32 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
+button{  
+  color: #FFF;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-radius: 8px;
+background: #E55473;
+border: none;
+padding: 20px 43px;
+}
 /* ------- Header section --------- */
 header{
   background: rgba(229, 84, 115, 0.10);
-  width: 100%;
-  
+  width: 100%; 
 }
 header .container{
-  max-width: 86rem;
+  max-width: 1400px;
   margin: 0 auto 128px;
 }
 .hero{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-   
+  grid-template-columns: repeat(2,1fr);  
   align-items: center;
   gap: 20px;
-
 }
 .hero .hero-col-2 img{
   width: 100%;
@@ -60,19 +69,6 @@ padding: 32px 0;
 .hero-col-2{
   padding-top: 50px;
 }
-/* .hero .hero-col-1 */
-button{  
-  color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-border-radius: 8px;
-background: #E55473;
-border: none;
-padding: 20px 43px;
-}
 
 /* feature section */
 .feature .feature-title p{
@@ -85,7 +81,6 @@ font-weight: 400;
 line-height: 30px;
 margin: 24px 0 48px;
 }
- 
 .feature-img{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -124,7 +119,6 @@ text-decoration-line: underline;
 padding-top: 32px;
 }
 
-
 /* support  */
 .support {
   border-radius: 8px;
@@ -132,9 +126,7 @@ background: rgba(39, 39, 39, 0.05);
 display: flex;
 justify-content: space-between;
 align-items: center;
- 
 padding: 87px 175px;
-
 }
 .support-card{
   display: flex;
@@ -152,11 +144,11 @@ font-weight: 600;
 line-height: 35px;
 }
 
-
 /* hot deal section */
 .hot-deal{
   border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
+padding: 30px 0;
 }
 .hd-wrapper{
   display: grid;
@@ -200,7 +192,7 @@ line-height: 30px;
 margin: 24px 0 48px;
 }
 
-/* review section */
+/* Customer review section */
 .review{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -225,8 +217,7 @@ margin: 24px 0 48px;
   width: 80px;
   height: 80px;
   border: 2px solid #E55473;
-  border-radius: 50px;
-   
+  border-radius: 50px;  
 }
 .review .review-card p{
   color: rgba(39, 39, 39, 0.60);
@@ -253,9 +244,6 @@ line-height: normal;
   border-radius: 25px;
   margin: 20px 0 100px;
 }
-
-
-
 
 /* cta */
 .cta{
@@ -329,7 +317,3 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
-
-
-
