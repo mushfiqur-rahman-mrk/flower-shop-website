@@ -80,7 +80,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-margin: 24px 48px;
+margin: 24px 0 48px;
 }
  
 .feature-img{
@@ -177,7 +177,9 @@ background: rgba(229, 84, 115, 0.05);
   justify-content: center;
   align-items: center;
 }
-
+.hot-deal span{
+  color: #E55473;
+}
 /* instagram */
 
 .insta-image{
@@ -192,7 +194,7 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-margin: 24px 48px;
+margin: 24px 0 48px;
 }
 
 /* review section */
@@ -217,8 +219,11 @@ margin: 24px 48px;
   box-shadow: 0px 4px 16px 0px rgba(17, 34, 17, 0.05);
 }
 .review-card img{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
+  border: 3px solid #E55473;
+  border-radius: 50px;
+   
 }
 .review .review-card p{
   color: rgba(39, 39, 39, 0.60);
@@ -240,7 +245,7 @@ line-height: normal;
 }
 .line{
   background-color:#E55473 ;
-  height: 10px;
+  height: 5px;
   width: 200px;
   border-radius: 25px;
   margin: 20px 0 100px;
